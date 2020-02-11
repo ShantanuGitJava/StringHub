@@ -13,6 +13,7 @@ public class AnagramStringCheckApp {
 	    return false;
 	}
 	char[] characters = word.toLowerCase().toCharArray();
+	//foreach loop
 	for (char ch : characters) {
 	    int index = anagram.toLowerCase().indexOf(ch);
 	    if (index != -1) {
